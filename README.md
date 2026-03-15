@@ -1,24 +1,8 @@
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="50%" style="stop-color:#1B2A4A"/>
-      <stop offset="100%" style="stop-color:#1e3a6e"/>
-    </linearGradient>
-    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.6"/>
-      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0.3"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="180" fill="url(#bg)" rx="8"/>
-  <path d="M0,140 C150,100 300,160 450,130 C600,100 750,150 900,120 L900,180 L0,180 Z" fill="url(#wave)" opacity="0.5"/>
-  <path d="M0,155 C200,125 400,165 600,140 C750,120 850,150 900,135 L900,180 L0,180 Z" fill="#2563eb" opacity="0.3"/>
-  <text x="450" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">Syed Ali Hasnat Danyal</text>
-  <text x="450" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#93c5fd" text-anchor="middle" letter-spacing="0.5">Data Scientist &amp; ML Engineer  |  Python · LLMs · NLP</text>
-  <text x="450" y="135" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64b3f4" text-anchor="middle" opacity="0.85">Building AI for FinTech &amp; Healthcare  ·  Open to Opportunities 🚀</text>
-</svg>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1B2A4A,100:2563eb&height=220&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=40&fontColor=FFFFFF&fontAlignY=40&desc=Data%20Scientist%20%26%20ML%20Engineer%20%7C%20Python%20%C2%B7%20LLMs%20%C2%B7%20NLP&descSize=16&descAlignY=60&descColor=93c5fd&animation=fadeIn" width="100%" />
+
+<br/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Data+Scientist+%26+ML+Engineer;Python+%C2%B7+LLMs+%C2%B7+NLP;Building+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
 
