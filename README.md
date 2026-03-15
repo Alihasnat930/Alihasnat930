@@ -1,9 +1,9 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=Data%20Scientist%20%7C%20AI/ML%20Engineer%20%7C%20Python%20%7C%20LLMs%20%7C%20NLP&descSize=15&descAlignY=65&descColor=e0f2fe)
+![header](https://capsule-render.vercel.app/api?type=waving&color=2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20Python%20%7C%20LLMs%20%7C%20NLP&descSize=15&descAlignY=65&descColor=e0f2fe)
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Data+Scientist+%26+AI/ML+Engineer;Python+%C2%B7+LLMs+%C2%B7+NLP;Building+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Data+Scientist+%26+ML+Engineer;Python+%C2%B7+LLMs+%C2%B7+NLP;Building+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,7 +12,7 @@
 ## 👋 About Me
 
 🔭 &nbsp;**Currently** &nbsp;→&nbsp; Open to new opportunities  
-🌍 &nbsp;**Location** &nbsp;→&nbsp; Lahore, Pakistan 🇵🇰  
+🌍 &nbsp;**Location** &nbsp;→&nbsp; Karachi, Pakistan 🇵🇰  
 🎓 &nbsp;**Education** &nbsp;→&nbsp; BS Software Engineering — Iqra University  
 💼 &nbsp;**Experience** &nbsp;→&nbsp; 2+ years · Internships + Freelance  
 📬 &nbsp;**Contact** &nbsp;→&nbsp; syedalihasnat929@gmail.com  
@@ -142,7 +142,23 @@
 
 ---
 
-## 📬 Connect With Me
+## 📈 Activity Graph
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Alihasnat930&theme=tokyo-night&hide_border=true&area=true&color=2563eb&line=2563eb&point=ffffff)](https://github.com/Alihasnat930)
+
+---
+
+## 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alihasnat930/Alihasnat930/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alihasnat930/Alihasnat930/output/github-contribution-grid-snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/Alihasnat930/Alihasnat930/output/github-contribution-grid-snake.svg" />
+</picture>
+
+---
+
+
 
 <div align="center">
 
