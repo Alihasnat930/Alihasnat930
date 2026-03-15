@@ -12,7 +12,7 @@
 ## 👋 About Me
 
 🔭 &nbsp;**Currently** &nbsp;→&nbsp; Open to new opportunities  
-🌍 &nbsp;**Location** &nbsp;→&nbsp; Karachi, Pakistan 🇵🇰  
+🌍 &nbsp;**Location** &nbsp;→&nbsp; Lahore, Pakistan 🇵🇰  
 🎓 &nbsp;**Education** &nbsp;→&nbsp; BS Software Engineering — Iqra University  
 💼 &nbsp;**Experience** &nbsp;→&nbsp; 2+ years · Internships + Freelance  
 📬 &nbsp;**Contact** &nbsp;→&nbsp; syedalihasnat929@gmail.com  
