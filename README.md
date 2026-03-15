@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1B2A4A,100:2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20AI%20Builder&descAlignY=58&descColor=93c5fd" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1B2A4A,100:2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Data%20Scientist%20%26%20ML%20Engineer%20%7C%20Python%20%C2%B7%20LLMs%20%C2%B7%20NLP&descAlignY=58&descColor=93c5fd" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Building+AI+that+solves+real+problems+%F0%9F%A4%96;Data+Scientist+%40+10Pearls;ML+Engineer+%7C+Deep+Learning+%7C+GenAI;Python+%7C+TensorFlow+%7C+FastAPI+%7C+LLMs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Data+Scientist+%26+ML+Engineer;Python+%C2%B7+LLMs+%C2%B7+NLP;Building+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,25 +14,28 @@
 
 ## 👋 About Me
 
-```python
-class AliHasnat:
-    name       = "Syed Ali Hasnat Danyal"
-    role       = "Data Scientist & Machine Learning Engineer"
-    location   = "Lahore, Pakistan 🇵🇰"
-    experience = "2+ years · Internships + Freelance"
-    
-    skills     = ["Python", "ML", "Deep Learning", "NLP", "Generative AI", "FastAPI"]
-    interests  = ["FinTech", "Healthcare AI", "Computer Vision", "LLM Engineering"]
-    
-    currently  = "Data Scientist Intern @ 10Pearls 🔬"
-    learning   = "LLM Fine-Tuning · MLOps · Advanced SHAP"
-    
-    def say_hi(self):
-        print("Thanks for stopping by! Let's build something great together 🚀")
+<table>
+<tr>
+<td valign="top" width="50%">
 
-me = AliHasnat()
-me.say_hi()
-```
+🔭 &nbsp;**Currently** &nbsp;→ &nbsp;Open to new opportunities  
+🌍 &nbsp;**Location** &nbsp;→ &nbsp;Karachi/Lahore, Pakistan 🇵🇰  
+🎓 &nbsp;**Education** &nbsp;→ &nbsp;BS Software Engineering, Iqra University  
+💼 &nbsp;**Experience** &nbsp;→ &nbsp;2+ years · Internships + Freelance  
+📬 &nbsp;**Reach me** &nbsp;→ &nbsp;syedalihasnat929@gmail.com  
+
+</td>
+<td valign="top" width="50%">
+
+🤖 &nbsp;**Interests** &nbsp;→ &nbsp;FinTech · Healthcare AI · Computer Vision  
+📚 &nbsp;**Learning** &nbsp;→ &nbsp;LLM Fine-Tuning · MLOps · Advanced SHAP  
+🛠️ &nbsp;**Builds with** &nbsp;→ &nbsp;Python · TensorFlow · FastAPI · LLMs  
+⚡ &nbsp;**Fun fact** &nbsp;→ &nbsp;I taught CS while building ML models at night  
+🚀 &nbsp;**Goal** &nbsp;→ &nbsp;AI solutions that actually ship to production  
+
+</td>
+</tr>
+</table>
 
 ---
 
