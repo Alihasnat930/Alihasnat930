@@ -1,9 +1,9 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20Python%20%7C%20LLMs%20%7C%20NLP&descSize=15&descAlignY=65&descColor=e0f2fe)
+![header](https://capsule-render.vercel.app/api?type=waving&color=2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=Data%20Scientist%20%7C%20ML/AI%20Engineer%20%7C%20Python%20%7C%20LLMs%20%7C%20NLP&descSize=15&descAlignY=65&descColor=e0f2fe)
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Data+Scientist+%26+ML+Engineer;Python+%C2%B7+LLMs+%C2%B7+NLP;Building+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Data+Scientist+%26+ML/AI+Engineer;Python+%C2%B7+LLMs+%C2%B7+NLP;Building+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 </div>
 
