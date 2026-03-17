@@ -18,7 +18,7 @@
 📬 &nbsp;**Contact** &nbsp;→&nbsp; syedalihasnat929@gmail.com  
 🤖 &nbsp;**Interests** &nbsp;→&nbsp; FinTech · Healthcare AI · Computer Vision · LLM Engineering  
 📚 &nbsp;**Learning** &nbsp;→&nbsp; LLM Fine-Tuning · MLOps · Advanced SHAP  
-🛠️ &nbsp;**Builds with** &nbsp;→&nbsp; Python · TensorFlow · FastAPI · LLMs  
+🛠️ &nbsp;**Builds with** &nbsp;→&nbsp; Python · TensorFlow/Pytorch · FastAPI · LLMs  
 ⚡ &nbsp;**Fun fact** &nbsp;→&nbsp; I taught CS while building ML models at night  
 🚀 &nbsp;**Goal** &nbsp;→&nbsp; AI solutions that actually ship to production  
 
