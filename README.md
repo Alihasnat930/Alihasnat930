@@ -14,7 +14,7 @@
 🔭 &nbsp;**Currently** &nbsp;→&nbsp; Open to new opportunities  
 🌍 &nbsp;**Location** &nbsp;→&nbsp;  Pakistan 
 🎓 &nbsp;**Education** &nbsp;→&nbsp; BS Software Engineering — Iqra University  
-💼 &nbsp;**Experience** &nbsp;→&nbsp; 2+ years · Internships + Freelance  
+💼 &nbsp;**Experience** &nbsp;→&nbsp; 2+ years 
 📬 &nbsp;**Contact** &nbsp;→&nbsp; syedalihasnat929@gmail.com  
 🤖 &nbsp;**Interests** &nbsp;→&nbsp; FinTech · Healthcare AI · Computer Vision · LLM Engineering  
 📚 &nbsp;**Learning** &nbsp;→&nbsp; LLM Fine-Tuning · MLOps · Advanced SHAP  
@@ -121,9 +121,8 @@
 
 | 🏢 Company | 💼 Role | 📅 Period |
 |---|---|---|
+| Observeri Technologies | AI Engineer  | Oct 2025 – Feb 2025 |
 | 10Pearls | Data Scientist Intern | Dec 2025 – Feb 2026 |
-| Observeri Technologies | AI Engineer (Part-time) | Dec 2025 – Feb 2026 |
-| Observeri Technologies | AI Engineer Intern | Oct 2025 – Nov 2025 |
 | Deloitte Australia | Data Analyst — Forage | Dec 2024 – Jan 2025 |
 | Adamjee Coaching | CS Teacher (Part-time) | Aug 2023 – Sep 2024 |
 | Freelance | Data Scientist & ML Dev | Sep 2023 – Sep 2025 |
