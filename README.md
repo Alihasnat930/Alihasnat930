@@ -13,6 +13,7 @@
 
 🔭 &nbsp;**Currently** &nbsp;→&nbsp; Open to new opportunities  
 🌍 &nbsp;**Location** &nbsp;→&nbsp;  Pakistan 
+
 🎓 &nbsp;**Education** &nbsp;→&nbsp; BS Software Engineering — Iqra University  
 💼 &nbsp;**Experience** &nbsp;→&nbsp; 2+ years 
 📬 &nbsp;**Contact** &nbsp;→&nbsp; alihasnat.dev@gmail.com  
