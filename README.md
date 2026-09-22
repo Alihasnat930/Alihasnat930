@@ -15,7 +15,7 @@
 🌍 &nbsp;**Location** &nbsp;→&nbsp;  Pakistan 
 🎓 &nbsp;**Education** &nbsp;→&nbsp; BS Software Engineering — Iqra University  
 💼 &nbsp;**Experience** &nbsp;→&nbsp; 2+ years 
-📬 &nbsp;**Contact** &nbsp;→&nbsp; syedalihasnat929@gmail.com  
+📬 &nbsp;**Contact** &nbsp;→&nbsp; alihasnat.dev@gmail.com  
 🤖 &nbsp;**Interests** &nbsp;→&nbsp; FinTech · Healthcare AI · Computer Vision · LLM Engineering  
 📚 &nbsp;**Learning** &nbsp;→&nbsp; LLM Fine-Tuning · MLOps · Advanced SHAP  
 🛠️ &nbsp;**Builds with** &nbsp;→&nbsp; Python · TensorFlow/Pytorch · FastAPI · LLMs  
