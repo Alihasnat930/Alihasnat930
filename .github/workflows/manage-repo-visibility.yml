@@ -1,0 +1,126 @@
+name: Make Non-AI Repositories Private
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (list repos to be made private without changing them)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  manage-visibility:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Set up GitHub CLI
+        run: |
+          gh --version
+
+      - name: Make non-AI repositories private
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          # Repositories to keep PUBLIC (AI-related + portfolio + profile README)
+          KEEP_PUBLIC=(
+            "Alihasnat930"
+            "Website"
+            "MedGemma-Multi-Agent-System-for-Lumbar-Spine-MRI-Analysis"
+            "FYP-Classification-of-lumber-Spine-Using-MRI-scans"
+            "IU-Classroom"
+            "multi-speaker-diarization-"
+            "object-detection"
+            "anomaly-detection"
+            "sentiment-analysis"
+            "fake-news-detection"
+            "ecom-recommender"
+            "resume-job-match"
+            "CIFAR-10-Model-Comparison"
+            "LIDC-IDRI"
+            "10-pearls-AQI"
+            "Uraan-governance-project"
+            "Livestocklens"
+          )
+
+          # Repositories to make PRIVATE (non-AI)
+          MAKE_PRIVATE=(
+            "Restaurant-management-systems-"
+            "OS-Project-"
+            "First-Mobile-app"
+            "Cisco-Networking-"
+            "dental-chart-app"
+            "Data-Base-Design"
+            "python-practice-"
+            "CBTCIP-"
+            ".-Bash-Practice--linux"
+            "Web-assignment-2"
+            "Mavdocx"
+            "DSA-using-Java"
+            "Blog-app"
+            "Testing-and-datasets"
+            "Java-Practice-"
+            "Mobile-App-Dev"
+            "React-native-app"
+            "Network-System-Administration-2-site"
+            "Codsoft"
+            "Web-Dev-assignment-"
+          )
+
+          echo "=== Repositories to remain PUBLIC ==="
+          for repo in "${KEEP_PUBLIC[@]}"; do
+            echo "  ✅ Alihasnat930/$repo"
+          done
+
+          echo ""
+          echo "=== Repositories to be made PRIVATE ==="
+          for repo in "${MAKE_PRIVATE[@]}"; do
+            echo "  🔒 Alihasnat930/$repo"
+          done
+
+          if [ "$DRY_RUN" = "true" ]; then
+            echo ""
+            echo "DRY RUN enabled — no changes were made."
+            echo "Re-run with dry_run=false to apply changes."
+            exit 0
+          fi
+
+          echo ""
+          echo "=== Applying visibility changes ==="
+          ERRORS=()
+          for repo in "${MAKE_PRIVATE[@]}"; do
+            echo -n "  Making Alihasnat930/$repo private... "
+
+            # Check current visibility first
+            current_visibility=$(gh repo view "Alihasnat930/$repo" --json isPrivate --jq '.isPrivate' 2>/dev/null)
+
+            if [ $? -ne 0 ]; then
+              echo "❌ not found or access denied"
+              ERRORS+=("$repo (not found or access denied)")
+            elif [ "$current_visibility" = "true" ]; then
+              echo "⏭️  already private"
+            else
+              if gh repo edit "Alihasnat930/$repo" --visibility private 2>/dev/null; then
+                echo "✅ done"
+              else
+                echo "❌ failed to update"
+                ERRORS+=("$repo (API error)")
+              fi
+            fi
+          done
+
+          echo ""
+          if [ ${#ERRORS[@]} -gt 0 ]; then
+            echo "The following repos encountered errors and require manual attention:"
+            for entry in "${ERRORS[@]}"; do
+              echo "  - $entry"
+            done
+            exit 1
+          else
+            echo "All repositories are now private (or were already private)."
+          fi
