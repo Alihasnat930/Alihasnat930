@@ -1,0 +1,132 @@
+name: Manage Repository Visibility
+
+# Manually trigger this workflow from the Actions tab.
+# Prerequisites:
+#   1. Create a Personal Access Token (PAT) with the "repo" scope at
+#      https://github.com/settings/tokens
+#   2. Add it as a repository secret named PERSONAL_ACCESS_TOKEN at
+#      Settings → Secrets and variables → Actions → New repository secret
+on:
+  workflow_dispatch:
+
+jobs:
+  set-visibility:
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - name: Set repository visibility (public AI repos + private everything else)
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          OWNER: Alihasnat930
+        run: |
+          # ── Repositories to keep PUBLIC ──────────────────────────────────────
+          # All AI/ML repos + the profile README + the portfolio website
+          PUBLIC_REPOS=(
+            "Alihasnat930"
+            "MedGemma-Multi-Agent-System-for-Lumbar-Spine-MRI-Analysis"
+            "FYP-Classification-of-lumber-Spine-Using-MRI-scans"
+            "IU-Classroom"
+            "multi-speaker-diarization-"
+            "object-detection"
+            "anomaly-detection"
+            "sentiment-analysis"
+            "fake-news-detection"
+            "ecom-recommender"
+            "resume-job-match"
+            "CIFAR-10-Model-Comparison"
+            "LIDC-IDRI"
+            "10-pearls-AQI"
+            "Uraan-governance-project"
+            "Livestocklens"
+            "Website"
+          )
+
+          # Build a lookup set from the array
+          declare -A KEEP_PUBLIC
+          for repo in "${PUBLIC_REPOS[@]}"; do
+            KEEP_PUBLIC["$repo"]=1
+          done
+
+          echo "Fetching all repositories for ${OWNER}..."
+
+          # Paginate through all repos (handles accounts with >30 repos)
+          page=1
+          all_repos=()
+          while true; do
+            batch=$(gh api \
+              -H "Accept: application/vnd.github+json" \
+              "/user/repos?type=owner&per_page=100&page=${page}" \
+              --jq '.[].name')
+            [[ -z "$batch" ]] && break
+            while IFS= read -r name; do
+              all_repos+=("$name")
+            done <<< "$batch"
+            (( page++ ))
+          done
+
+          echo "Found ${#all_repos[@]} repositories."
+
+          made_private=()
+          made_public=()
+          already_correct=()
+
+          for repo in "${all_repos[@]}"; do
+            current_private=$(gh api \
+              -H "Accept: application/vnd.github+json" \
+              "/repos/${OWNER}/${repo}" \
+              --jq '.private')
+
+            if [[ -n "${KEEP_PUBLIC[$repo]}" ]]; then
+              # Should be public
+              if [[ "$current_private" == "true" ]]; then
+                echo "  → Making PUBLIC:  ${repo}"
+                gh api \
+                  --method PATCH \
+                  -H "Accept: application/vnd.github+json" \
+                  "/repos/${OWNER}/${repo}" \
+                  -f private=false > /dev/null
+                made_public+=("$repo")
+              else
+                already_correct+=("$repo (already public)")
+              fi
+            else
+              # Should be private
+              if [[ "$current_private" == "false" ]]; then
+                echo "  → Making PRIVATE: ${repo}"
+                gh api \
+                  --method PATCH \
+                  -H "Accept: application/vnd.github+json" \
+                  "/repos/${OWNER}/${repo}" \
+                  -f private=true > /dev/null
+                made_private+=("$repo")
+              else
+                already_correct+=("$repo (already private)")
+              fi
+            fi
+          done
+
+          echo ""
+          echo "════════════════════════════════════════"
+          echo "Summary"
+          echo "════════════════════════════════════════"
+
+          if [[ ${#made_public[@]} -gt 0 ]]; then
+            echo ""
+            echo "Made PUBLIC (${#made_public[@]}):"
+            for r in "${made_public[@]}"; do echo "  ✅ $r"; done
+          fi
+
+          if [[ ${#made_private[@]} -gt 0 ]]; then
+            echo ""
+            echo "Made PRIVATE (${#made_private[@]}):"
+            for r in "${made_private[@]}"; do echo "  🔒 $r"; done
+          fi
+
+          if [[ ${#already_correct[@]} -gt 0 ]]; then
+            echo ""
+            echo "No change needed (${#already_correct[@]}):"
+            for r in "${already_correct[@]}"; do echo "  ✓  $r"; done
+          fi
+
+          echo ""
+          echo "Done."
