@@ -1,32 +1,29 @@
-
 <div align="center">
 
-# Syed Ali Hasnat Danyal
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,50:2563EB,100:7C3AED&height=220&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=36&fontColor=FFFFFF&fontAlignY=38&desc=Forward%20Deployed%20Engineer%20%7C%20AI%2FML%20Engineer&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Syed Ali Hasnat Danyal — AI Engineer" />
 
-### Forward Deployed Engineer (FDE) | AI/ML Engineer | LLMs · RAG · AI Agents
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1200&color=2563EB&center=true&vCenter=true&width=780&lines=Forward+Deployed+Engineer;AI%2FML+Engineer+%7C+LLMs+%7C+RAG+%7C+Agents;Building+Production-Ready+AI+Systems;Turning+Business+Problems+into+AI+Solutions" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=750&lines=Forward+Deployed+Engineer;AI%2FML+Engineer+%7C+LLMs+%7C+RAG;Building+AI+Agents+and+Production+Systems;Turning+Business+Problems+into+AI+Solutions" alt="Animated introduction" />
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Alihasnat930&label=Profile%20Views&color=2563EB&style=flat-square" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=Alihasnat930&label=Profile%20Views&color=2563EB&style=flat-square" alt="Profile views" />
 <a href="https://github.com/Alihasnat930?tab=followers">
-<img src="https://img.shields.io/github/followers/Alihasnat930?label=Followers&style=flat-square&color=2563EB" alt="GitHub Followers" />
+  <img src="https://img.shields.io/github/followers/Alihasnat930?label=Followers&style=flat-square&color=2563EB" alt="GitHub followers" />
 </a>
 
 <br/><br/>
 
 <a href="https://linkedin.com/in/syed-ali-hasnat-danyal-6b0a26246">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 <a href="https://alihasnat.netlify.app">
-<img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio" />
 </a>
 <a href="mailto:alihasnat.dev@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://github.com/Alihasnat930">
-<img src="https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 </div>
