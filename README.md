@@ -34,7 +34,7 @@
 I'm an AI/ML Engineer and Forward Deployed Engineer focused on turning real-world business problems into practical AI solutions. I work across machine learning, generative AI, LLM applications, RAG pipelines, agentic workflows, APIs, and automation.
 
 - 🔭 **Currently:** Open to AI Engineer, ML Engineer, and Forward Deployed Engineer opportunities
-- 🌍 **Location:** Karachi, Pakistan | Open to remote work, onsite roles, and relocation
+- 🌍 **Location:** Pakistan | Open to remote work, onsite roles, and relocation
 - 🎓 **Education:** BS Software Engineering, Iqra University
 - 💼 **Experience:** 2+ years across AI/ML, software development, and freelance projects
 - 📬 **Email:** [alihasnat.dev@gmail.com](mailto:alihasnat.dev@gmail.com)
