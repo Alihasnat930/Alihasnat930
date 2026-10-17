@@ -65,9 +65,9 @@
 
 ## 🚀 Featured Projects
 
-### 🌍 [Pearl AQI — Air Quality Intelligence Platform](https://github.com/Alihasnat930/10-pearls-AQI)
-> Real-time AQI monitoring for 15+ global cities · XGBoost, Random Forest & LSTM models with **99%+ accuracy** · SHAP explainability · FastAPI REST backend  
-`Python` `XGBoost` `LSTM` `FastAPI` `SHAP` `Data Visualization`
+### 🤖 [MedGemma — Multi-Agent Lumbar Spine MRI Analysis](https://github.com/Alihasnat930/MedGemma-Multi-Agent-System-for-Lumbar-Spine-MRI-Analysis)
+> Multi-agent clinical reasoning pipeline using MedGemma to interpret lumbar spine MRI findings · Safety validation · Structured radiology-style outputs  
+`Python` `Multi-Agent` `Medical AI` `LLM` `Safety Guardrails`
 
 ---
 
@@ -77,9 +77,33 @@
 
 ---
 
+### 🎙️ [IU-Classroom — AI Voice Intelligence](https://github.com/Alihasnat930/IU-Classroom)
+> AI-powered multi-speaker classroom voice intelligence · Speaker diarization + transcription · Structured transcripts for multi-speaker sessions  
+`Python` `Speech AI` `Diarization` `ASR` `Audio Processing`
+
+---
+
+### 🗣️ [Multi-Speaker Diarization](https://github.com/Alihasnat930/multi-speaker-diarization-)
+> Multi-speaker diarization and transcription system · Speaker change detection · Speaker-attributed transcript generation  
+`Python` `Diarization` `ASR` `Audio ML`
+
+---
+
 ### 🫁 [LIDC-IDRI — Lung Nodule Detection](https://github.com/Alihasnat930/LIDC-IDRI)
 > Lung nodule detection pipeline built on the LIDC-IDRI medical imaging benchmark dataset  
 `Python` `TensorFlow` `Jupyter`
+
+---
+
+### 🔍 [Object Detection](https://github.com/Alihasnat930/object-detection)
+> Object detection training and evaluation experiments · Model comparison with standard detection metrics (mAP)  
+`Python` `Computer Vision` `Object Detection` `Jupyter`
+
+---
+
+### 🚨 [Anomaly Detection](https://github.com/Alihasnat930/anomaly-detection)
+> Unsupervised/semi-supervised anomaly detection pipeline · Feature engineering and visualization for model debugging  
+`Python` `Anomaly Detection` `Unsupervised ML` `Jupyter`
 
 ---
 
@@ -89,15 +113,45 @@
 
 ---
 
+### 📰 [Fake News Detection](https://github.com/Alihasnat930/fake-news-detection)
+> Fake news / misinformation text classification pipeline · Full preprocessing → training → evaluation workflow  
+`Python` `NLP` `Text Classification` `Feature Extraction`
+
+---
+
+### 🛒 [E-Commerce Recommender](https://github.com/Alihasnat930/ecom-recommender)
+> Recommendation system prototype for product suggestions · Candidate generation and ranking · Offline evaluation metrics (hit-rate / precision@k)  
+`Python` `Recommender Systems` `Ranking` `Similarity`
+
+---
+
+### 📄 [Resume–Job Match](https://github.com/Alihasnat930/resume-job-match)
+> NLP pipeline to score resume ↔ job description alignment · Semantic similarity + text cleaning → ranked job matches  
+`Python` `NLP` `Semantic Similarity` `Embeddings`
+
+---
+
 ### 📊 [CIFAR-10 Model Comparison](https://github.com/Alihasnat930/CIFAR-10-Model-Comparison)
 > Benchmarked CNN architectures on CIFAR-10 · Analyzed accuracy vs. compute trade-offs  
 `Python` `Deep Learning` `Jupyter`
 
 ---
 
+### 🌍 [Pearl AQI — Air Quality Intelligence Platform](https://github.com/Alihasnat930/10-pearls-AQI)
+> Real-time AQI monitoring for 15+ global cities · XGBoost, Random Forest & LSTM models with **99%+ accuracy** · SHAP explainability · FastAPI REST backend  
+`Python` `XGBoost` `LSTM` `FastAPI` `SHAP` `Data Visualization`
+
+---
+
 ### 🏛️ [Uraan Governance Project](https://github.com/Alihasnat930/Uraan-governance-project)
 > Data analysis and ML pipeline for governance and policy-level insights  
 `Python` `Pandas` `Jupyter`
+
+---
+
+### 🐄 [LivestockLens](https://github.com/Alihasnat930/Livestocklens)
+> Livestock analytics app integrating field data with ML-driven insights · Inference/API integration layer for in-app predictions  
+`TypeScript` `ML Integration` `Computer Vision`
 
 ---
 
