@@ -169,10 +169,11 @@
 </div>
 
 ---
-
-<img src="https://vercel.app" width="100%"/>
-
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Alihasnat930&color=2563eb&style=flat-square&label=Profile+Views" alt="Profile Views" />
+
+<img src="https://komarev.com/ghpvc/?username=Alihasnat930&color=2563eb&style=flat-square&label=Profile+Views" alt="Profile Views" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1B2A4A,100:0d1117&height=100&section=footer" width="100%" alt="Footer" />
+
 </div>
 
