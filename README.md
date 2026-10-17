@@ -1,5 +1,6 @@
 <div align="center">
-![header](https://capsule-render.vercel.app/api?type=waving&color=2563eb&height=200&section=header&text=Syed%20Ali%20Hasnat%20Danyal&fontSize=42&fontColor=ffffff&fontAlignY=42&desc=Forward%20Deployed%20Engineer%20%28FDE%29%20%7C%20AI%2FML%20Engineer%20%7C%20LLMs%20%7C%20RAG%20%7C%20Agents&descSize=15&descAlignY=65&descColor=e0f2fe)
+<h1>Syed Ali Hasnat Danyal</h1>
+<h3>Forward Deployed Engineer (FDE) | AI/ML Engineer | LLMs | RAG | Agents</h3>
  
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=2563EB&center=true&vCenter=true&width=750&lines=Forward+Deployed+Engineer+%28FDE%29;AI%2FML+Engineer+%C2%B7+LLMs+%C2%B7+RAG+%C2%B7+Agents;Shipping+Production+AI+for+FinTech+%26+Healthcare;Open+to+Opportunities+%F0%9F%9A%80)](https://git.io/typing-svg)
  
@@ -179,4 +180,4 @@ I work close to the customer: understand the real problem, prototype fast, and t
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alihasnat930)
  
 </div>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1B2A4A,100:0d1117&height=100&section=footer" width="100%" alt="Footer" />
+ 
