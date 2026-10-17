@@ -121,9 +121,9 @@
 
 | 🏢 Company | 💼 Role | 📅 Period |
 |---|---|---|
-| Observeri Technologies | AI Engineer  | Oct 2025 – Feb 2025 |
 | 10Pearls | Data Scientist Intern | Dec 2025 – Feb 2026 |
-| Deloitte Australia | Data Analyst — Forage | Dec 2024 – Jan 2025 |
+| Observeri Technologies | AI Engineer  | Oct 2025 – Feb 2026 |
+| Iqra University | Research Assistant | Aug 2025 – Feb 2026 |
 | Adamjee Coaching | CS Teacher (Part-time) | Aug 2023 – Sep 2024 |
 | Freelance | Data Scientist & ML Dev | Sep 2023 – Sep 2025 |
 | The Nastech Pvt. Ltd | Senior Research Analyst | Feb 2023 – Jul 2023 |
@@ -170,10 +170,9 @@
 
 ---
 
+<img src="https://vercel.app" width="100%"/>
+
 <div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Alihasnat930&color=2563eb&style=flat-square&label=Profile+Views)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1B2A4A,100:0d1117&height=100&section=footer" width="100%"/>
-
+  <img src="https://komarev.com/ghpvc/?username=Alihasnat930&color=2563eb&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </div>
+
