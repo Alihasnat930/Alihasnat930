@@ -126,8 +126,8 @@
 | Iqra University | Research Assistant | Aug 2025 – Feb 2026 |
 | Adamjee Coaching | CS Teacher (Part-time) | Aug 2023 – Sep 2024 |
 | Freelance | Data Scientist & ML Dev | Sep 2023 – Sep 2025 |
-| The Nastech Pvt. Ltd | Senior Research Analyst | Feb 2023 – Jul 2023 |
-| Apex Global Brands | Research Analyst | Jul 2022 – Dec 2022 |
+| The Nastech Pvt. Ltd | Data Analyst | Feb 2023 – Jul 2023 |
+| Apex Global Brands | Data Analyst | Jul 2022 – Dec 2022 |
 
 ---
 
