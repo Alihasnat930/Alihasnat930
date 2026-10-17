@@ -171,8 +171,7 @@
 ---
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Alihasnat930&color=2563eb&style=flat-square&label=Profile+Views" alt="Profile Views" />
-
+<img src="https://img.shields.io/badge/Profile%20Views-Visit%20Profile-blue?style=flat-square" alt="Profile Views" />
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1B2A4A,100:0d1117&height=100&section=footer" width="100%" alt="Footer" />
 
 </div>
