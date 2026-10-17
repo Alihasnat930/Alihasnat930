@@ -7,8 +7,6 @@
 <br/>
 
 <a href="https://github.com/Alihasnat930">
-  <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
-</a>
   <img src="https://img.shields.io/github/followers/Alihasnat930?label=Followers&style=flat-square&color=2563EB" alt="GitHub followers" />
 </a>
 
